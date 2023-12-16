@@ -2,7 +2,7 @@ body {
 margin: 0;
 }
 .main-login {
-width: 100vw;
+width: 98vw;
 height: 100vh;
 display: flex;
 justify-items: center;
@@ -38,11 +38,12 @@ width: 40vw;
     color: black;
     background-image: linear-gradient(to right, #be7cfc, white);
     display: flex;
-    margin-bottom: 20%;
+    margin-bottom: 22%;
     padding-bottom: 5.6%;
-    color: rgba(0, 0, 0, 0.675);
+    color: rgba(69, 7, 241, 0.493);
     border: solid 2px;
     border-radius: 30px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.377);
 }
 
 a{
@@ -50,13 +51,14 @@ a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    text-align: center;
-    padding: -10%;
+    text-align: top;
+    padding-bottom: 3px;
+
     
 }
 a:hover {
-    color: rgb(21, 170, 229);
-    text-shadow: 2px 2px 2px black;
+    color: rgb(248, 232, 2);
+    text-shadow: 2px 2px 0px black;
 }
 
 .menu li {
